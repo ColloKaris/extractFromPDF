@@ -4,7 +4,7 @@ import fitz
 doc = fitz.open("games.pdf")
 
 # Print out the number of pages
-print(doc.page_count)
+#print(doc.page_count)
 
 # load the first page from the PDF
 page = doc.load_page(0)
